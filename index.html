@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width,
+      initial-scale=1.0">
     <title>Guide Booking</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>welcome to Guide Booking</h1>
-    <p>Book local guides or become a guide.</p>
-    <h2>Become a Guide</h2>
-    <p>Website Updated</p>
-    <form>
-      <input type="text"
-        placeholder="Full Name"><br><br>
-      <input type="file"><br><br>
-      <Button type="submit">Apply</Button>
-    </form>
+    <div class="container">
+      <div class="left-panel">
+        <div class="logo">Guide Booking</div>
+        <div class="hero-text">
+          <h1>
+            Explore India.<br>
+            <span>Local Guides.</span>
+          </h1>
+          <p>
+            Book verified local guides or become a guide and share your knowledge.
+          </p>
+        </div>
+      </div>
+      <div class="card login-card">
+        <h2>Welcome Back!</h2>
+        <input type="email" placeholder="Email Address">
+        <input type="password"
+          plcaeholder="password">
+        <button>Login</button>
+      </div>
+      <div class="card register-card">
+        <h2>Create Account</h2>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <input type="password"
+          placeholder="password">
+        <input type="password"
+          placeholder="Confirm password">
+        <select>
+          <option>I want to</option>
+          <option>Book a Guide</option>
+          <option>Become a Guide</option>
+        </select>
+        <button>Register</button>
+      </div>
+    </div>
   </body>
 </html>
