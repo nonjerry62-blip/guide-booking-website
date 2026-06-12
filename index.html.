@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guide Booking</title>
+  </head>
+  <body>
+    <h1>welcome to Guide Booking</h1>
+    <p>Book local guides or become a guide.</p>
+    <h2>Become a Guide</h2>
+    <form>
+      <input type="text"
+        placeholder="Full Name"><br><br>
+      <input type="file"><br><br>
+      <Button type="submit">Apply</Button>
+    </form>
+  </body>
+</html>
