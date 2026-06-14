@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+  box-family:arial,sans-serif;}
+body{
+  height:100vh;
+  background:url("tajmahal.jpg");
+  background-size:cover;
+  background-poistion:center;
+}
+.container{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  padding:30px;
+  background:rgba(0,0,0,0.15);
+}
+.left-panel{
+  width:40%;
+  color:white;
+}
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:150px;
+}
+.hero-text h1{
+  font-size:60px;
+  line-height:1.1;
+}
+.hero-text span{
+  color:#f0c36d;
+}
+.hero-text p{
+  margin-top:20px;
+  font-size:22px;
+}
+.card{
+  background:white;
+  width:370px;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+.card h2{
+  text-aling:center;
+  margin-bottom:30px;
+}
+.card input,
+,card select{
+  width:100%;
+  padding:14px;
+  margin-bottom:15px;
+  border:1pxx solid #ddd;
+  border-radius:10px;
+}
+.card button{
+  width:100%;
+  padding:14px;
+  background:#08285d;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+  cursor:pointer;
+}
